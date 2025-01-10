@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="m-0 flex">
+    <div id="sidebar" class="w-64 bg-[#C63030] text-black h-screen p-4 fixed inset-0 transform -translate-x-full lg:translate-x-0 transition-transform">
+        <button class="text-2xl font-semibold mb-6">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M37.5 12.5L12.5 37.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12.5 12.5L37.5 37.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <ul class="h-[60%] w-full flex flex-col justify-evenly font-semibold text-[20px]">
+            <li><a href="#" class="block py-2 px-3 text-black border-b-2 border-t-2 border-black hover:text-slate-500 flex">
+                <svg width="30" height="33" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4165 7.5835H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M10.4165 18H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M10.4165 28.4165H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                </svg>Dashboard
+                </a>
+            </li>
+            <li><a href="#" class="block py-2 px-3  border-b-2 border-t-2 border-black hover:text-slate-500 flex">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.00001 10.8333V10.8333C5.00001 9.74772 5.00001 9.20492 5.13886 8.76455C5.43319 7.83106 6.1644 7.09984 7.09789 6.80551C7.53827 6.66667 8.08107 6.66667 9.16668 6.66667L32.3333 6.66667C32.8047 6.66667 33.0404 6.66667 33.1869 6.81311C33.3333 6.95956 33.3333 7.19526 33.3333 7.66667V9C33.3333 11.8284 33.3333 13.2426 32.4547 14.1213C31.576 15 30.1618 15 27.3333 15H25M5.00001 10.8333V10.8333C5.00001 11.9189 5.00001 12.4617 5.13886 12.9021C5.43319 13.8356 6.1644 14.5668 7.09789 14.8612C7.53827 15 8.08107 15 9.16668 15L33 15C33.9428 15 34.4142 15 34.7071 15.2929C35 15.5858 35 16.0572 35 17L35 21.6667M5.00001 10.8333L5.00001 31C5.00001 32.8856 5.00001 33.8284 5.5858 34.4142C6.17158 35 7.11439 35 9.00001 35L33 35C33.9428 35 34.4142 35 34.7071 34.7071C35 34.4142 35 33.9428 35 33L35 28.3333M35 28.3333H27C26.0572 28.3333 25.5858 28.3333 25.2929 28.0404C25 27.7475 25 27.2761 25 26.3333V23.6667C25 22.7239 25 22.2525 25.2929 21.9596C25.5858 21.6667 26.0572 21.6667 27 21.6667H35M35 28.3333L35 21.6667" stroke="black" stroke-width="2"/>
+                </svg> Keuangan
+                </a>
+            </li>
+            <li><a href="#" class="block py-2 px-3  border-b-2 border-t-2 border-black hover:text-slate-500 flex">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.9998 35V21.6667M19.9998 35L7.60651 27.2542C7.14698 26.967 6.91722 26.8234 6.79186 26.5972C6.6665 26.371 6.6665 26.1001 6.6665 25.5582V13.3333M19.9998 35L26.6665 30.8333L32.3932 27.2542C32.8527 26.967 33.0825 26.8234 33.2078 26.5972C33.3332 26.371 33.3332 26.1001 33.3332 25.5582V13.3333M19.9998 21.6667L6.6665 13.3333M19.9998 21.6667L33.3332 13.3333M6.6665 13.3333L18.9398 5.6625C19.4553 5.34033 19.713 5.17925 19.9998 5.17925C20.2866 5.17925 20.5444 5.34033 21.0598 5.6625L33.3332 13.3333" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M25.6668 24.1665C25.6668 24.7188 26.1145 25.1665 26.6668 25.1665C27.2191 25.1665 27.6668 24.7188 27.6668 24.1665H25.6668ZM25.7268 16.9123L25.1968 17.7603L25.7268 16.9123ZM26.5415 17.5693L27.4161 17.0845L26.5415 17.5693ZM12.8035 10.0145L25.1968 17.7603L26.2568 16.0643L13.8635 8.31851L12.8035 10.0145ZM27.6668 24.1665V18.6083H25.6668V24.1665H27.6668ZM25.1968 17.7603C25.4425 17.9139 25.5672 17.9931 25.6511 18.0574C25.7181 18.1087 25.6938 18.1028 25.6668 18.0541L27.4161 17.0845C27.2638 16.8097 27.0619 16.6189 26.8678 16.4701C26.6906 16.3342 26.4706 16.198 26.2568 16.0643L25.1968 17.7603ZM27.6668 18.6083C27.6668 18.3562 27.6679 18.0974 27.6466 17.8752C27.6233 17.6317 27.5685 17.3594 27.4161 17.0845L25.6668 18.0541C25.6398 18.0054 25.6477 17.9817 25.6557 18.0657C25.6658 18.1709 25.6668 18.3186 25.6668 18.6083H27.6668Z" fill="black"/>
+                </svg>Produk
+                </a>
+            </li>
+            <li><a href="#" class="block py-2 px-3  border-b-2 border-t-2 border-black hover:text-slate-500 flex">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.8335 31.25L20.8335 25" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                <path d="M16.6667 10.4165L12.5 18.7498M33.3333 10.4165L37.5 18.7498" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                <path d="M29.1665 31.25L29.1665 25" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                <path d="M6.25 18.75H7.44054C8.87419 18.75 9.59102 18.75 10.1225 19.1454C10.6539 19.5408 10.8599 20.2274 11.2719 21.6006L15.8115 36.7327C16.2234 38.1059 16.4294 38.7925 16.9609 39.1879C17.4923 39.5833 18.2091 39.5833 19.6428 39.5833H30.3572C31.7909 39.5833 32.5077 39.5833 33.0391 39.1879C33.5706 38.7925 33.7766 38.1059 34.1885 36.7327L38.7281 21.6006C39.1401 20.2274 39.3461 19.5408 39.8775 19.1454C40.409 18.75 41.1258 18.75 42.5595 18.75H43.75" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                <path d="M6.25 18.75L43.75 18.75" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                </svg>Stok Barang
+                </a>
+            </li>
+            <li><a href="#" class="block py-2 px-3  hover:text-slate-500 flex text-white">
+                <svg  width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg flex">
+                    <path d="M25 5H31.6667C32.5507 5 33.3986 5.35119 34.0237 5.97631C34.6488 6.60143 35 7.44928 35 8.33333V31.6667C35 32.5507 34.6488 33.3986 34.0237 34.0237C33.3986 34.6488 32.5507 35 31.6667 35H25M16.6667 28.3333L25 20M25 20L16.6667 11.6667M25 20H5" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>Log Out
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="w-full h-screen lg:ml-[80px]">
+    <nav class="w-full h-[39px] bg-[#D9D9D9] flex items-center ">
+        <div class="w-2/4 h-full flex items-center">
+            <button class="lg:hidden p-4 text-white" id="toggleSidebar">
+                <svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4165 7.5835H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M10.4165 18H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M10.4165 28.4165H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+    
+            </button>
+        </div>
+        <div class="w-2/4 h-full flex items-center justify-end">
+            <h4>Admin</h4>
+            
+            <!--poto profil sesuaikan-->
+            <svg width="45" height="40" viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.625 17.5C5.625 8.1802 13.1802 0.625 22.5 0.625C31.8198 0.625 39.375 8.1802 39.375 17.5C39.375 26.8198 31.8198 34.375 22.5 34.375C13.1802 34.375 5.625 26.8198 5.625 17.5Z" fill="#7E869E" fill-opacity="0.25"/>
+                <circle cx="22.5" cy="13.75" r="7.5" fill="#222222"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M34.2492 29.3552C34.3059 29.4524 34.2882 29.5754 34.2071 29.6535C31.1728 32.5771 27.0463 34.375 22.4999 34.375C17.9536 34.375 13.8272 32.5772 10.7929 29.6536C10.7118 29.5756 10.6941 29.4525 10.7508 29.3553C12.9029 25.6617 17.3558 23.125 22.5 23.125C27.6442 23.125 32.0971 25.6616 34.2492 29.3552Z" fill="#222222"/>
+                </svg>
+                
+        </div>
+    </nav>
+    <div class="w-full h-screen flex justify-center">
+        <div class="w-[85%] h-full flex flex-col items-center my-2">
+            <div class="w-[90%] h-1/4 flex flex-col justify-evenly items-center">
+                <h2 class="text-[30px] font-poppins ">Dashboard</h2>
+                <p class="bg-[#D9D9D9] px-6">Anda Login Sebagai Admin</p>
+            </div>
+            <div class="w-full h-3/4 flex flex-col justify-evenly items-center">
+                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex ">
+                    <div class="w-1/3 h-full flex justify-center items-center border-r-2 border-black">                        
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.8335 31.25L20.8335 25" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M16.6667 10.4165L12.5 18.7498M33.3333 10.4165L37.5 18.7498" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M29.1665 31.25L29.1665 25" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M6.25 18.75H7.44054C8.87419 18.75 9.59102 18.75 10.1225 19.1454C10.6539 19.5408 10.8599 20.2274 11.2719 21.6006L15.8115 36.7327C16.2234 38.1059 16.4294 38.7925 16.9609 39.1879C17.4923 39.5833 18.2091 39.5833 19.6428 39.5833H30.3572C31.7909 39.5833 32.5077 39.5833 33.0391 39.1879C33.5706 38.7925 33.7766 38.1059 34.1885 36.7327L38.7281 21.6006C39.1401 20.2274 39.3461 19.5408 39.8775 19.1454C40.409 18.75 41.1258 18.75 42.5595 18.75H43.75" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M6.25 18.75L43.75 18.75" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    </div>
+                    <div class="w-2/3 h-full flex flex-col">
+                        <div class="w-full h-1/5 flex justify-center items-center uppercase border-b-2 border-black font-semibold"><p>stok barang</p></div> 
+                        <div class="w-full h-4/5 flex justify-center items-center text-[64px]"><h1><b>1</b></h1></div>                           
+                    </div>
+                </a>
+                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex ">
+                    <div class="w-1/3 h-full flex justify-center items-center border-r-2 border-black">                        
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.00001 10.8333V10.8333C5.00001 9.74772 5.00001 9.20492 5.13886 8.76455C5.43319 7.83106 6.1644 7.09984 7.09789 6.80551C7.53827 6.66667 8.08107 6.66667 9.16668 6.66667L32.3333 6.66667C32.8047 6.66667 33.0404 6.66667 33.1869 6.81311C33.3333 6.95956 33.3333 7.19526 33.3333 7.66667V9C33.3333 11.8284 33.3333 13.2426 32.4547 14.1213C31.576 15 30.1618 15 27.3333 15H25M5.00001 10.8333V10.8333C5.00001 11.9189 5.00001 12.4617 5.13886 12.9021C5.43319 13.8356 6.1644 14.5668 7.09789 14.8612C7.53827 15 8.08107 15 9.16668 15L33 15C33.9428 15 34.4142 15 34.7071 15.2929C35 15.5858 35 16.0572 35 17L35 21.6667M5.00001 10.8333L5.00001 31C5.00001 32.8856 5.00001 33.8284 5.5858 34.4142C6.17158 35 7.11439 35 9.00001 35L33 35C33.9428 35 34.4142 35 34.7071 34.7071C35 34.4142 35 33.9428 35 33L35 28.3333M35 28.3333H27C26.0572 28.3333 25.5858 28.3333 25.2929 28.0404C25 27.7475 25 27.2761 25 26.3333V23.6667C25 22.7239 25 22.2525 25.2929 21.9596C25.5858 21.6667 26.0572 21.6667 27 21.6667H35M35 28.3333L35 21.6667" stroke="black" stroke-width="2"/>
+                            </svg>
+                    </div>
+                    <div class="w-2/3 h-full flex flex-col">
+                        <div class="w-full h-full flex justify-center items-center uppercase font-semibold"><p>laporan keuangan</p></div> 
+                    </div>
+                </a>
+                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex hover:bg-slate-500">
+                    <div class="w-1/3 h-full flex justify-center items-center border-r-2 border-black">                        
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.9998 35V21.6667M19.9998 35L7.60651 27.2542C7.14698 26.967 6.91722 26.8234 6.79186 26.5972C6.6665 26.371 6.6665 26.1001 6.6665 25.5582V13.3333M19.9998 35L26.6665 30.8333L32.3932 27.2542C32.8527 26.967 33.0825 26.8234 33.2078 26.5972C33.3332 26.371 33.3332 26.1001 33.3332 25.5582V13.3333M19.9998 21.6667L6.6665 13.3333M19.9998 21.6667L33.3332 13.3333M6.6665 13.3333L18.9398 5.6625C19.4553 5.34033 19.713 5.17925 19.9998 5.17925C20.2866 5.17925 20.5444 5.34033 21.0598 5.6625L33.3332 13.3333" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M25.6668 24.1665C25.6668 24.7188 26.1145 25.1665 26.6668 25.1665C27.2191 25.1665 27.6668 24.7188 27.6668 24.1665H25.6668ZM25.7268 16.9123L25.1968 17.7603L25.7268 16.9123ZM26.5415 17.5693L27.4161 17.0845L26.5415 17.5693ZM12.8035 10.0145L25.1968 17.7603L26.2568 16.0643L13.8635 8.31851L12.8035 10.0145ZM27.6668 24.1665V18.6083H25.6668V24.1665H27.6668ZM25.1968 17.7603C25.4425 17.9139 25.5672 17.9931 25.6511 18.0574C25.7181 18.1087 25.6938 18.1028 25.6668 18.0541L27.4161 17.0845C27.2638 16.8097 27.0619 16.6189 26.8678 16.4701C26.6906 16.3342 26.4706 16.198 26.2568 16.0643L25.1968 17.7603ZM27.6668 18.6083C27.6668 18.3562 27.6679 18.0974 27.6466 17.8752C27.6233 17.6317 27.5685 17.3594 27.4161 17.0845L25.6668 18.0541C25.6398 18.0054 25.6477 17.9817 25.6557 18.0657C25.6658 18.1709 25.6668 18.3186 25.6668 18.6083H27.6668Z" fill="black"/>
+                            </svg>
+                    </div>
+                    <div class="w-2/3 h-full flex flex-col">
+                        <div class="w-full h-1/5 flex justify-center items-center uppercase border-b-2 border-black font-semibold"><p>daftar produk</p></div> 
+                        <div class="w-full h-4/5 flex justify-center items-center text-[64px]"><h1><b>1</b></h1></div>                           
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+ const toggleButton = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+        
+        // Toggle sidebar visibility when hamburger is clicked
+        toggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('-translate-x-full');
+        });
+
+        // Close sidebar if clicked outside of sidebar
+        document.addEventListener('click', (e) => {
+            const isClickInside = sidebar.contains(e.target) || toggleButton.contains(e.target);
+            if (!isClickInside) {
+                sidebar.classList.add('-translate-x-full');
+            }
+        });</script>
+</html>
