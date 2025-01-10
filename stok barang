@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stok Barang</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="m-0 flex">
+    <nav class="w-full h-[39px] flex items-center justify-between">
+        <button >
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.4116 18.9585L19.5783 27.1252L17.5002 29.1668L5.8335 17.5002L17.5002 5.8335L19.5783 7.87516L11.4116 16.0418H29.1668V18.9585H11.4116Z" fill="#1D1B20"/>
+            </svg>
+        </button>
+        <h1 class="font-semibold font-poppins">Daftar Produk</h1>
+        <button>
+            <svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.4165 7.5835H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10.4165 18H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10.4165 28.4165H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+    </nav>
+    <div class="w-full flex flex-col">
+    <div class="w-full h-1/5 flex justify-evenly items-center my-5">
+        <button class="w-[100px] h-[33px] bg-[#0B79E0] border border-black rounded-[50px] font-poppins font-bold active:bg-sky-800">semua</button>
+        <button class="w-[100px] h-[33px] bg-[#C24B4B] border border-black rounded-[50px] font-poppins font-bold active:bg-red-950">favorit</button>
+
+    </div>
+    <div class="w-full h-auto my-4 flex justify-center">
+        <div class="w-[95%] h-full  flex flex-wrap gap-3">
+            <a href="" class="w-[110px] h-[192px] bg-[#D9D9D9] flex flex-col justify-evenly items-center border-2 border-black ">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 10V38M10 24H38" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h2 class="font-poppins font-bold text-center">tambah produk</h2>
+                    
+            </a>
+            <button class="w-[120px] h-[200px] flex flex-col justify-evenly items-center border-2 border-black font-poppins ">
+                <div class="w-full flex flex-col justify-evenly items-center">
+                <img src="" width="64" height="64">
+                <p>Rp. 5000</p>
+                <p class="font-semibold">Air Mineral</p>
+                </div>
+                <div class="w-full flex flex-col justify-evenly items-center">
+                    <a href="" class="font-semibold flex text-red-600 ">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 21C6.45 21 5.97917 20.8042 5.5875 20.4125C5.19583 20.0208 5 19.55 5 19V6H4V4H9V3H15V4H20V6H19V19C19 19.55 18.8042 20.0208 18.4125 20.4125C18.0208 20.8042 17.55 21 17 21H7ZM17 6H7V19H17V6ZM9 17H11V8H9V17ZM13 17H15V8H13V17Z" fill="red"/>
+                            </svg>Hapus
+                    </a>
+                </div>
+                <p>4</p>
+            </button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
