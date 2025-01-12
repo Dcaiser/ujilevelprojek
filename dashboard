@@ -9,7 +9,7 @@
 </head>
 <body class="m-0 flex">
     <div id="sidebar" class="w-64 bg-[#C63030] text-black h-screen p-4 fixed inset-0 transform -translate-x-full lg:translate-x-0 transition-transform">
-        <button class="text-2xl font-semibold mb-6">
+        <button class="text-2xl font-semibold mb-6 lg:hidden" id="close">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M37.5 12.5L12.5 37.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M12.5 12.5L37.5 37.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -56,10 +56,10 @@
 
         </ul>
     </div>
-    <div class="w-full h-screen lg:ml-[80px]">
+    <div class="w-full h-screen md:ml-64">
     <nav class="w-full h-[39px] bg-[#D9D9D9] flex items-center ">
         <div class="w-2/4 h-full flex items-center">
-            <button class="lg:hidden p-4 text-white" id="toggleSidebar">
+            <button class=" p-4 text-white lg:hidden" id="toggleSidebar">
                 <svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.4165 7.5835H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
                     <path d="M10.4165 18H39.5832" stroke="#33363F" stroke-width="2" stroke-linecap="round"/>
@@ -87,7 +87,7 @@
                 <p class="bg-[#D9D9D9] px-6">Anda Login Sebagai Admin</p>
             </div>
             <div class="w-full h-3/4 flex flex-col justify-evenly items-center">
-                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex ">
+                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex hover:bg-slate-500 active:bg-slate-700">
                     <div class="w-1/3 h-full flex justify-center items-center border-r-2 border-black">                        
                         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.8335 31.25L20.8335 25" stroke="black" stroke-width="2" stroke-linecap="round"/>
@@ -102,7 +102,7 @@
                         <div class="w-full h-4/5 flex justify-center items-center text-[64px]"><h1><b>1</b></h1></div>                           
                     </div>
                 </a>
-                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex ">
+                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex hover:bg-slate-500 active:bg-slate-700">
                     <div class="w-1/3 h-full flex justify-center items-center border-r-2 border-black">                        
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.00001 10.8333V10.8333C5.00001 9.74772 5.00001 9.20492 5.13886 8.76455C5.43319 7.83106 6.1644 7.09984 7.09789 6.80551C7.53827 6.66667 8.08107 6.66667 9.16668 6.66667L32.3333 6.66667C32.8047 6.66667 33.0404 6.66667 33.1869 6.81311C33.3333 6.95956 33.3333 7.19526 33.3333 7.66667V9C33.3333 11.8284 33.3333 13.2426 32.4547 14.1213C31.576 15 30.1618 15 27.3333 15H25M5.00001 10.8333V10.8333C5.00001 11.9189 5.00001 12.4617 5.13886 12.9021C5.43319 13.8356 6.1644 14.5668 7.09789 14.8612C7.53827 15 8.08107 15 9.16668 15L33 15C33.9428 15 34.4142 15 34.7071 15.2929C35 15.5858 35 16.0572 35 17L35 21.6667M5.00001 10.8333L5.00001 31C5.00001 32.8856 5.00001 33.8284 5.5858 34.4142C6.17158 35 7.11439 35 9.00001 35L33 35C33.9428 35 34.4142 35 34.7071 34.7071C35 34.4142 35 33.9428 35 33L35 28.3333M35 28.3333H27C26.0572 28.3333 25.5858 28.3333 25.2929 28.0404C25 27.7475 25 27.2761 25 26.3333V23.6667C25 22.7239 25 22.2525 25.2929 21.9596C25.5858 21.6667 26.0572 21.6667 27 21.6667H35M35 28.3333L35 21.6667" stroke="black" stroke-width="2"/>
@@ -112,7 +112,7 @@
                         <div class="w-full h-full flex justify-center items-center uppercase font-semibold"><p>laporan keuangan</p></div> 
                     </div>
                 </a>
-                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex hover:bg-slate-500">
+                <a href="" class="w-full h-[181px] bg-[#D9D9D9] my-2 rounded-2xl flex hover:bg-slate-500 active:bg-slate-700">
                     <div class="w-1/3 h-full flex justify-center items-center border-r-2 border-black">                        
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.9998 35V21.6667M19.9998 35L7.60651 27.2542C7.14698 26.967 6.91722 26.8234 6.79186 26.5972C6.6665 26.371 6.6665 26.1001 6.6665 25.5582V13.3333M19.9998 35L26.6665 30.8333L32.3932 27.2542C32.8527 26.967 33.0825 26.8234 33.2078 26.5972C33.3332 26.371 33.3332 26.1001 33.3332 25.5582V13.3333M19.9998 21.6667L6.6665 13.3333M19.9998 21.6667L33.3332 13.3333M6.6665 13.3333L18.9398 5.6625C19.4553 5.34033 19.713 5.17925 19.9998 5.17925C20.2866 5.17925 20.5444 5.34033 21.0598 5.6625L33.3332 13.3333" stroke="black" stroke-width="2" stroke-linejoin="round"/>
@@ -131,19 +131,26 @@
 </div>
 </body>
 <script>
- const toggleButton = document.getElementById('toggleSidebar');
-        const sidebar = document.getElementById('sidebar');
-        
-        // Toggle sidebar visibility when hamburger is clicked
-        toggleButton.addEventListener('click', () => {
-            sidebar.classList.toggle('-translate-x-full');
-        });
+    const toggleButton = document.getElementById('toggleSidebar');
+           const sidebar = document.getElementById('sidebar');
+           const closebutton = document.getElementById('close');
+           
+           // Toggle sidebar visibility when hamburger is clicked
+           toggleButton.addEventListener('click', () => {
+               sidebar.classList.toggle('-translate-x-full');
+           });
+   
+           // Close sidebar if clicked outside of sidebar
+           document.addEventListener('click', (e) => {
+               const isClickInside = sidebar.contains(e.target) || toggleButton.contains(e.target);
+               if (!isClickInside) {
+                   sidebar.classList.add('-translate-x-full');
+               }
+           });
+           closebutton.addEventListener('click', () => {
+            sidebar.classList.add('-translate-x-full');
 
-        // Close sidebar if clicked outside of sidebar
-        document.addEventListener('click', (e) => {
-            const isClickInside = sidebar.contains(e.target) || toggleButton.contains(e.target);
-            if (!isClickInside) {
-                sidebar.classList.add('-translate-x-full');
-            }
-        });</script>
+           })
+           </script>
+
 </html>
